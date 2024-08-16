@@ -4,6 +4,6 @@ const isActive:boolean = true;
 
 hpPoints = 'FULL';
 
-/* console.log({
+console.log({
     name, hpPoints, isActive
-}) */
+})
