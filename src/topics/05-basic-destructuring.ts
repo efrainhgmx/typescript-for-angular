@@ -20,8 +20,13 @@ const audioPlayer: AudioPlayer = {
     }
 }
 
-const { song, audioVolume } = audioPlayer;
+/* const { song, audioVolume } = audioPlayer;
 const { details: { author } } = audioPlayer;
 console.log('Song: ', song);
 console.log('Adio: ', audioVolume);
-console.log('Author: ', author);
+console.log('Author: ', author); */
+const dbz: string[] = ['Goku', 'Vegeta'];
+
+const [, , p3 = 'Not Found'   ] = dbz;
+
+console.log('Personaje 3: ', p3 || 'No hay personaje');
