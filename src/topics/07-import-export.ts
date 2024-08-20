@@ -13,7 +13,7 @@ const shoppingCart: Product[] = [
 
 const [ total, taxTotal ] = taxCalculation({
     products: shoppingCart,
-    tax: 0.16
+    tax: 0.14
 })
 
 console.table({total, taxTotal });

@@ -32,10 +32,10 @@ export function taxCalculation( options: TaxCalculationOptions ): [number, numbe
     return [total, total * tax];
 }
 
-const [total, taxTotal] = taxCalculation({
+/* const [total, taxTotal] = taxCalculation({
     products: shoppinCart,
     tax
-});
+}); */
 
 /* console.log('Total', total);
 console.log('Total Tax', taxTotal); */
