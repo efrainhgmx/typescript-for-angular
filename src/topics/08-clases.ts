@@ -1,14 +1,19 @@
 export class Person {
-    public name: string;
-    public address: string;
+    /* public name: string;
+    public address: string; */
 
-    constructor(){
-        this.name = 'Efra';
-        this.address = 'CDMX';
-    }
+    /**
+     * Primer método o función que se 
+     * ejecuta en nuestra clase
+     * al crear una clase new Person();
+     */
+    constructor(
+        public name: string, 
+        public address: string = 'No Address'
+    ){}
 }
 
 
-const ironman = new Person();
+const ironman = new Person('Iron Man', 'Malibu California');
 
 console.log(ironman);
